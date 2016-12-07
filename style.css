@@ -1,0 +1,148 @@
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.container {
+	width: 720px;
+	margin: 0 auto;
+	border: 3px solid #4ea0b7;
+	border-radius: 3px;
+	
+}
+
+.container nav ul {
+	list-style: none;
+	background-color: #70d0eb;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+
+}
+
+.container nav ul li {
+	padding: 10px 10px;
+	
+	
+
+}
+
+.container nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	display: block;
+
+}
+
+.container nav ul li a:hover {
+	background: #3195b1;
+
+
+}
+
+.container main.home {
+	width: 100%;
+	height: 300px;
+	background-image: url('http://oi68.tinypic.com/oqggfb.jpg');
+}
+
+.container main.about section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.container main.about article {
+	padding: 20px;
+	background-color: #ffafbb;
+	width: 50%;
+}
+
+.container main.about section figure {
+	width: 300px;
+	height: 300px;
+
+}
+
+.container main.about section figure img {
+	width: 100%;
+}
+
+.container main.work section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.container main.work section article {
+	border: 1px dashed #e3e3dd;
+	width: 30%;
+	position: relative;
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.container main.work section article figure {
+	position: relative;
+	width: 100%;
+	height: 100%%;
+}
+
+.container main.work section article figure img {
+	width: 100%;
+	height: 100%;
+}
+
+.container main.contact {
+	width: 100%;
+	background-color: #e6d7c5;
+	box-sizing: border-box;
+}
+
+.container main.contact form {
+
+}
+
+.container main.contact form input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 30px 0;
+	padding: 10px 10px;
+	border-radius: 4px;
+	background-color: ;
+}
+
+.container main.contact form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	border-radius: 4px;
+	padding: 10px 10px;
+}
+
+.container footer ul {
+	list-style-type: none;
+	background-color: #499eb6;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.container footer ul li {
+	padding: 10px;
+}
+
+.container footer ul li a {
+	color: white;
+	font-size: 2em;
+}
